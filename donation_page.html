@@ -4,8 +4,16 @@
   <title>Donation Page</title>
 </head>
 <body>
-  <h1>Donate to save Walter White</h1>
-  
+  <header>
+    <h1>Donate to save Walter White</h1>
+    <nav>
+      <ul>
+          <li>
+              <a href="./index.html">Main Page</a>
+          </li>
+      </ul>
+    </nav>
+  </header>
   <form action="process_donation.php" method="post">
     <label for="name">Name:</label>
     <input type="text" id="name" name="name" required><br>
@@ -21,5 +29,8 @@
     
     <input type="submit" value="Donate">
   </form>
+  <footer>
+    <p>&copy; Matthew Savage. 2023. | <a href="mnsavage@crimson.ua.edu">Contact me</a></p>
+  </footer>
 </body>
 </html>
