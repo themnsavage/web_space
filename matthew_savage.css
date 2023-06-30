@@ -1,0 +1,48 @@
+/* Matthew Savage jun. 29, 2023 */
+body {
+    background: #1ba11a url(./index_images/background_image.png) top left repeat;
+	font-family: Comic Sans,Comic Sans MS,cursive;
+	margin: 0;
+	padding: 0;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+}
+ul li {
+	display: inline;
+}
+img {
+	border: none;
+}
+
+nav {
+    background-color: #333;
+}
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
