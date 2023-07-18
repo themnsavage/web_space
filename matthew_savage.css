@@ -1,9 +1,21 @@
-html,body {
+html,header,body {
 	background: #1ba11a url(./img/tile.png) top left repeat;
 	font-family: Comic Sans,Comic Sans MS,cursive;
 	margin: 0;
 	padding: 0;
 }
+header {
+	text-align: center;
+}
+
+h1 {
+	color: white;
+}
+
+input, textarea {
+	background-color: whitesmoke;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -122,5 +134,30 @@ a {
   }
   
 a:hover {
-color: white; 
+	color: darkgreen; 
 }
+
+header {
+	text-align: center;
+}
+
+nav ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	border: 1px solid darkgreen;
+}
+
+nav ul li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+  
